@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Space Electricals</title>
+    <meta name="author" content="Vecuro">
+    <meta name="description" content="Space Electricals">
+    <meta name="keywords" content="Space Electricals">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/img/fav.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Raleway:wght@100..900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <!-- Header -->
+    <div id="header"></div>
+
+    <script>
+        fetch('header.html')
+            .then(r => r.text())
+            .then(html => {
+                document.getElementById('header').innerHTML = html;
+            });
+    </script>
+    <!-- Header -->
+
+
+    <!-- Banner -->
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+        <div class="container z-index-common">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">Projects</h1>
+            </div>
+            <div class="breadcumb-menu-wrap">
+                <ul class="breadcumb-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <!-- Projects -->
+    <section class="service-details-wrapper space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="service-details">
+                        <div class="service-image"><img src="assets/img/service/sr-details-1-1.jpg" alt="service image">
+                        </div>
+                        <h2 class="service-title">Electrical Repair Services</h2>
+                        <p>Fixing faulty wiring, installing light fixtures, circuit breaker repairs, home rewiring,
+                            appliance repairs, and any surge protection installations maintenance for businesses, office
+                            lighting solutions, electrical safety kinds inspections any security system installations,
+                            and backup generator setup.</p>
+                        <p>Smart home installations, ev Electric Vehicle charging station setup, solar panel
+                            maintenance, and energy-efficient lighting solutions office spaces, retail shops, and rental
+                            properties needing ongoing maintenance any electrical upgrades projects where electrical
+                            installation is required simpler tasks like installing outlets kinds a switches, or
+                            replacing breakers on skill and experience.</p>
+                        <h3 class="h4">Service Center</h3>
+                        <p>Liability insurance to protect against potential claims and worker’s compensation insurance
+                            for employee any safety electricians with gloves, protective gear, and clear guidelines
+                            handling complex wiring and machinery team is well-trained in new and safety standards.</p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="sidebar"></div>
+
+                    <script>
+                        fetch('sidebar.html')
+                            .then(r => r.text())
+                            .then(html => {
+                                document.getElementById('sidebar').innerHTML = html;
+                            });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script>
+        fetch('footer.html')
+            .then(r => r.text())
+            .then(html => {
+                document.getElementById('footer').innerHTML = html;
+            });
+    </script>
+    <!-- Footer -->
+
+
+    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
